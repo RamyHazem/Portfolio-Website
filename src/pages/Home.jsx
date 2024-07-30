@@ -1,11 +1,13 @@
 import React from "react";
-import NavigationBar from "../components/NavigationBar";
+import ProjectSection from "../components/ProjectSection";
 
 const Home = () => {
   return (
-    <div className="bg-home-clr h-screen">
-      <NavigationBar />
-    </div>
+    <>
+      <ProjectSection />
+      <section>SKILLS</section>
+      <section>CONTACT US</section>
+    </>
   );
 };
 

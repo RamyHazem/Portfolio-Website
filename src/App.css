@@ -5,3 +5,7 @@
 body {
   font-family: "Kanit", sans-serif;
 }
+
+section {
+  height: 60vh;
+}

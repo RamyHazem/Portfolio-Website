@@ -1,33 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
-    <nav class="flex justify-between items-center p-5 text-white font-bold">
-      <div class="flex items-center">
-        <a href="#" class="text-lg">
+    <nav className="flex justify-between items-center p-5 text-white font-bold">
+      <div className="flex items-center">
+        <Link to="/" className="text-lg">
           Logo
-        </a>
+        </Link>
       </div>
-      <div class="hidden md:flex">
-        <ul class="flex space-x-10 px-10 text-xl lg:text-2xl">
+      <div className="hidden md:flex">
+        <ul className="flex space-x-10 px-10 text-xl lg:text-2xl">
           <li>
-            <a href="#" class="hover:text-gray-300">
+            <Link to="/" className="hover:text-gray-300">
               HOME
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" class="hover:text-gray-300">
+            <Link to="/projects" className="hover:text-gray-300">
               PROJECTS
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" class="hover:text-gray-300">
+            <Link to="/contact-us" className="hover:text-gray-300">
               CONTACT
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
-      <div class="md:hidden"></div>
+      <div className="md:hidden"></div>
     </nav>
   );
 };

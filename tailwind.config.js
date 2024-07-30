@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "home-clr": "#483dc6",
+        "project-container-clr": "#4852e5",
       },
     },
   },
