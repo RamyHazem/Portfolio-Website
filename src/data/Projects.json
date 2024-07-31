@@ -6,8 +6,12 @@
   },
   {
     "name": "Expense Tracker",
-    "languages": ["React JS"],
-    "link": "test.com"
+    "languages": [
+      "../images/Tailwind CSS.png",
+      "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-svg-vector.svg"
+    ],
+    "link": "https://github.com/RamyHazem/React-JS-Expense-Tracker",
+    "img": "../images/Expense Tracker Img.png"
   },
   {
     "name": "Expense Tracker",

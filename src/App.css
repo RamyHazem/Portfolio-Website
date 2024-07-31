@@ -6,6 +6,13 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
-section {
-  height: 60vh;
+.projects {
+  /* border: 1px solid red; */
+  height: 33vh;
+  width: 100%;
+}
+
+.view-more {
+  width: 8rem;
+  border-radius: 6px;
 }

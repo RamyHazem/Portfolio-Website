@@ -8,6 +8,7 @@ export default {
         "project-container-clr": "#30333a",
         "whitish-clr": "#e4e5e6",
         "greyish-clr": "#a3a4a8",
+        "view-more-btn": "#fdc86b",
       },
     },
   },
