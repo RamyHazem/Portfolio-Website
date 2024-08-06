@@ -1,36 +1,48 @@
 [
   {
-    "name": "Solutions to 9618 Cambridge AL Computer Science Past Papers - Paper 4",
-    "languages": ["Python"],
-    "link": "test.com"
+    "name": "9618 AL CS Paper 4",
+    "desc": "This repo contains all solutions to all 9618 Cambridge A Level Computer Science Paper 4 Questions with model answers in Python",
+    "languages": ["../images/Python.jpg"],
+    "link": "https://github.com/RamyHazem/9618-Paper-4-Solutions",
+    "img": "../images/AL CS Cover.png"
   },
   {
     "name": "Expense Tracker",
+    "desc": "This Project contains a very simple and responsive Expense Tracker in React where you can add and track past Expenses & Incomes",
+    "languages": [
+      "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-svg-vector.svg"
+    ],
+    "link": "https://github.com/RamyHazem/React-JS-Expense-Tracker",
+    "img": "../images/Expense Tracker Cover.png"
+  },
+  {
+    "name": "Quiz App",
+    "desc": "This is a completely random generated quiz app made with Tailwind CSS in React that is fully automated and customizable by fetching from an API",
     "languages": [
       "../images/Tailwind CSS.png",
       "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-svg-vector.svg"
     ],
-    "link": "https://github.com/RamyHazem/React-JS-Expense-Tracker",
-    "img": "../images/Expense Tracker Img.png"
+    "link": "https://github.com/RamyHazem/React-JS-Quiz-App",
+    "img": "../images/Quiz App Cover.png"
   },
   {
-    "name": "Expense Tracker",
-    "languages": ["React JS"],
-    "link": "test.com"
+    "name": "Tic Tac Toe App",
+    "desc": "Fully Functional Tic Tac Toe game in React Js - needs some UI updates but focused on functionality",
+    "languages": [
+      "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-svg-vector.svg"
+    ],
+    "link": "https://github.com/RamyHazem/Tic-Tac-Toe",
+    "img": "../images/Tic Tac Toe Cover.png"
   },
   {
-    "name": "Expense Tracker",
-    "languages": ["React JS"],
-    "link": "test.com"
-  },
-  {
-    "name": "Expense Tracker",
-    "languages": ["React JS"],
-    "link": "test.com"
-  },
-  {
-    "name": "Expense Tracker",
-    "languages": ["React JS"],
-    "link": "test.com"
+    "name": "Calculator App",
+    "desc": "This is a simple calculator with a clean UI and fully functional in Vanilla HTML, CSS and JS",
+    "languages": [
+      "../images/HTML.jpg",
+      "../images/CSS.jpg",
+      "../images/JS.png"
+    ],
+    "link": "https://github.com/RamyHazem/Vanilla-Js-Calculator-App",
+    "img": "../images/Calculator Cover.png"
   }
 ]

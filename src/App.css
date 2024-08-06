@@ -6,6 +6,11 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.home-text {
+  top: 30%;
+  left: 20%;
+}
+
 .projects {
   /* border: 1px solid red; */
   height: 33vh;
@@ -15,4 +20,23 @@ body {
 .view-more {
   width: 8rem;
   border-radius: 6px;
+}
+
+.project-container {
+  gap: 10px;
+}
+
+.project-card {
+  border-radius: 30px;
+  min-width: 8%;
+  transition: flex-grow 0.5s ease;
+  height: 550px;
+}
+
+.project-card:hover {
+  flex-grow: 7;
+}
+
+.project-card:hover .card-content {
+  opacity: 1;
 }

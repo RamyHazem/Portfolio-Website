@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
-    <nav className="flex justify-between p-5 text-white font-bold">
+    <nav className="flex justify-between text-white font-bold py-5 sticky top-0 bg-home-clr z-50">
       <div className="flex flex-start">
         <Link to="/" className="text-lg">
-          Logo
+          <img className="h-16 w-32" src="../images/Logo.png" alt="Logo" />
         </Link>
       </div>
       <div className="flex justify-center items-center">
@@ -28,7 +28,6 @@ const NavigationBar = () => {
           </li>
         </ul>
       </div>
-      <div className="">Search</div>
     </nav>
   );
 };
