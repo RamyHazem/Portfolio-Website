@@ -4,12 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "home-clr": "#34353a",
-        "navbar-clr": "#2d3134",
-        "project-container-clr": "#30333a",
+        "home-clr": "#2d3134",
+        "complementary-clr": "#fdc86b",
+        "project-container-clr": "#4B5055",
         "whitish-clr": "#e4e5e6",
         "greyish-clr": "#a3a4a8",
-        "view-more-btn": "#fdc86b",
       },
     },
   },
