@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "home-clr": "#34353a",
+        "navbar-clr": "#2d3134",
         "project-container-clr": "#30333a",
         "whitish-clr": "#e4e5e6",
         "greyish-clr": "#a3a4a8",
