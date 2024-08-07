@@ -6,37 +6,38 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.navbar {
+  transition: backdrop-filter 0.3s, background 0.3s;
+}
+
+.navbar.blurred {
+  backdrop-filter: blur(10px);
+  background: rgba(24, 24, 24, 0.8);
+}
 .home-text {
   top: 30%;
   left: 20%;
 }
 
 .projects {
-  /* border: 1px solid red; */
   height: 33vh;
   width: 100%;
 }
 
 .view-more {
+  display: relative;
   width: 8rem;
   border-radius: 6px;
 }
 
+/* .view-more::after {
+  content: "➔";
+  margin-left: 5px;
+  display: inline-block;
+  font-weight: bold;
+  opacity: 0.85;
+} */
+
 .project-container {
-  gap: 10px;
-}
-
-.project-card {
-  border-radius: 30px;
-  min-width: 8%;
-  transition: flex-grow 0.5s ease;
-  height: 550px;
-}
-
-.project-card:hover {
-  flex-grow: 7;
-}
-
-.project-card:hover .card-content {
-  opacity: 1;
+  border-radius: 10px;
 }
