@@ -1,7 +1,7 @@
 [
   {
     "name": "9618 AL CS Paper 4",
-    "desc": "This repo contains all solutions to all 9618 Cambridge A Level Computer Science Paper 4 Questions with model answers in Python",
+    "desc": "Contains all solutions to 9618 Cambridge A Level Computer Science Paper 4 Questions in Python",
     "languages": ["Python"],
     "link": "https://github.com/RamyHazem/9618-Paper-4-Solutions",
     "img": "../images/AL CS Cover.png"

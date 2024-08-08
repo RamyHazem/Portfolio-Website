@@ -31,19 +31,22 @@ const NavigationBar = () => {
         </Link>
       </div>
       <div className="flex justify-center items-center">
-        <ul className="flex space-x-10 px-10 text-greyish-clr">
+        <ul className="flex space-x-10 px-10 text-navbar-items-clr">
           <li>
-            <Link to="/" className="hover:text-whitish-clr">
+            <Link to="/" className="hover:text-navbar-items-hover-clr">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/projects" className="hover:text-whitish-clr">
+            <Link to="/projects" className="hover:text-navbar-items-hover-clr">
               Projects
             </Link>
           </li>
           <li>
-            <Link to="/contact-us" className="hover:text-whitish-clr">
+            <Link
+              to="/contact-us"
+              className="hover:text-navbar-items-hover-clr"
+            >
               Contact
             </Link>
           </li>

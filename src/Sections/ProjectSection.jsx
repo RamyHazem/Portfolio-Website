@@ -2,6 +2,7 @@ import React from "react";
 import MainProjects from "../data/MainProjects.json";
 import MobileProjectContainer from "../components/MobileProjectContainer";
 import { useNavigate } from "react-router-dom";
+import YellowButton from "../components/YellowButton";
 
 const ProjectSection = () => {
   const navigate = useNavigate();
@@ -22,13 +23,11 @@ const ProjectSection = () => {
             />
           ))}
         </div>
-        <div className="flex justify-center items-center py-10">
-          <button
+        <div className="flex justify-center items-center pb-5">
+          <YellowButton
+            text={"View More"}
             onClick={() => navigate("/projects")}
-            className="view-more bg-complementary-clr p-3 text-black bold font-bold"
-          >
-            View More
-          </button>
+          />
         </div>
       </section>
     </>
