@@ -1,12 +1,12 @@
 import React from "react";
 
-const YellowButton = ({ text, onClick }) => {
+const YellowButton = ({ text, onClick, link }) => {
   return (
     <button
-      className="view-more bg-complementary-yellow-clr p-3 text-black bold font-bold"
+      className="view-more relative w-32 rounded-lg bg-complementary-yellow-clr p-3 text-black bold font-black"
       onClick={onClick}
     >
-      {text}
+      {link ? <a href={link}>{text}</a> : <>{text}</>}
     </button>
   );
 };

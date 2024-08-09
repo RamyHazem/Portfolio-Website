@@ -1,8 +1,8 @@
 import React from "react";
-import MainProjects from "../data/MainProjects.json";
-import MobileProjectContainer from "../components/MobileProjectContainer";
+import MainProjects from "../../../data/MainProjects.json";
+import MobileProjectContainer from "../Components/MobileProjectContainer";
 import { useNavigate } from "react-router-dom";
-import YellowButton from "../components/YellowButton";
+import YellowButton from "../../../components/YellowButton";
 
 const ProjectSection = () => {
   const navigate = useNavigate();

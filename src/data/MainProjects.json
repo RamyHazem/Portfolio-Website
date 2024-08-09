@@ -4,20 +4,23 @@
     "desc": "Contains all solutions to 9618 Cambridge A Level Computer Science Paper 4 Questions in Python",
     "languages": ["Python"],
     "link": "https://github.com/RamyHazem/9618-Paper-4-Solutions",
-    "img": "../images/AL CS Cover.png"
+    "img": "../images/AL CS Cover.png",
+    "repoName": "9618-Paper-4-Solutions"
   },
   {
     "name": "Expense Tracker",
     "desc": "This Project contains a very simple and responsive Expense Tracker in React where you can add and track past Expenses & Incomes",
-    "languages": ["React JS"],
+    "languages": ["ReactJS"],
     "link": "https://github.com/RamyHazem/React-JS-Expense-Tracker",
-    "img": "../images/Expense Tracker Cover.png"
+    "img": "../images/Expense Tracker Cover.png",
+    "repoName": "React-JS-Expense-Tracker"
   },
   {
     "name": "Quiz App",
     "desc": "This is a completely random generated quiz app made with Tailwind CSS in React that is fully automated and customizable by fetching from an API",
-    "languages": ["React JS", "Tailwind CSS"],
+    "languages": ["ReactJS", "TailwindCSS"],
     "link": "https://github.com/RamyHazem/React-JS-Quiz-App",
-    "img": "../images/Quiz App Cover.png"
+    "img": "../images/Quiz App Cover.png",
+    "repoName": "React-JS-Quiz-App"
   }
 ]

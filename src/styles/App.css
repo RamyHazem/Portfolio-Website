@@ -19,26 +19,3 @@ body {
   top: 30%;
   left: 20%;
 }
-
-.projects {
-  height: 33vh;
-  width: 100%;
-}
-
-.view-more {
-  display: relative;
-  width: 8rem;
-  border-radius: 6px;
-}
-
-/* .view-more::after {
-  content: "➔";
-  margin-left: 5px;
-  display: inline-block;
-  font-weight: bold;
-  opacity: 0.85;
-} */
-
-.project-container {
-  border-radius: 10px;
-}

@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import BubbleBackground from "../components/BubbleBackground";
+import BubbleBackground from "../../../components/BubbleBackground";
 
 const MainSection = () => {
   return (
