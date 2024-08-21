@@ -1,21 +1,13 @@
 import React from "react";
 import YellowButton from "../../../components/YellowButton";
 import Language from "./Language";
-import GitHubRepoInfo from "./GitHubRepoInfo";
 import { useNavigate } from "react-router-dom";
 
-const MobileProjectContainer = ({
-  name,
-  languages,
-  link,
-  img,
-  desc,
-  repoName,
-}) => {
+const MobileProjectContainer = ({ name, languages, link, img, desc }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="project-container flex flex-col items-center bg-project-container-clr mb-3 p-7 lg:mx-80 rounded-xl">
+    <div className="project-container flex flex-col items-center justify-center bg-project-container-clr mb-3 p-7 lg:mx-80 rounded-xl">
       <img src={img} alt="Project Image" className="w-32 h-32 m-4" />
       <span className="font-black text-3xl">{name}</span>
       <div className="mb-5 flex items-center justify-center">
@@ -37,7 +29,6 @@ const MobileProjectContainer = ({
         </button>
         <YellowButton text={"Repo Link"} link={link} />
       </div>
-      <GitHubRepoInfo repo={repoName} />
     </div>
   );
 };

@@ -17,5 +17,18 @@ body {
 
 .home-text {
   top: 30%;
-  left: 20%;
+  left: 10%;
+}
+
+.project-container {
+  height: 60dvh;
+}
+
+.line {
+  top: 0.5rem;
+  left: -3rem;
+}
+
+.skill-item {
+  width: auto;
 }

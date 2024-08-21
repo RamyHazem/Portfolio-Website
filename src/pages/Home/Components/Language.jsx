@@ -2,9 +2,9 @@ import React from "react";
 
 const Language = ({ language }) => {
   const colors = {
-    Python: "blue-500",
-    ReactJS: "yellow-300",
-    TailwindCSS: "purple-500",
+    Python: "#4299e1",
+    ReactJS: "#faf089",
+    TailwindCSS: "#805ad5",
   };
 
   return (
@@ -13,8 +13,8 @@ const Language = ({ language }) => {
       style={{ background: "#444349" }}
     >
       <div
-        className={`relative w-3 h-3 rounded-full 
-          ${colors[language] && `bg-${colors[language]}`}`}
+        className="relative w-3 h-3 rounded-full"
+        style={{ backgroundColor: colors[language] }}
       ></div>
 
       <span className="ml-1 text-xs font-black">{language}</span>
