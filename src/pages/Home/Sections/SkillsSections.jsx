@@ -33,7 +33,7 @@ const SkillsSections = () => {
           My Skills
         </h1>
 
-        <div className="flex items-center justify-center flex-wrap gap-5 text-white mx-20">
+        <div className="flex items-center justify-center flex-wrap gap-5 text-white lg:mx-20 ">
           {skills.map((skill, index) => (
             <SkillItem key={index} name={skill} />
           ))}

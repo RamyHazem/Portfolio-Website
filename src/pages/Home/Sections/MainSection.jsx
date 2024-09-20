@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
 import BubbleBackground from "../../../components/BubbleBackground";
+import Icon from "../Components/Icon";
 
 const MainSection = () => {
   return (
@@ -18,20 +19,12 @@ const MainSection = () => {
           />
         </span>
       </div>
-      <div className="socials absolute right-0 text-white bottom-1 flex flex-col gap-4 items-center">
+      <div className="socials absolute right-3 text-white bottom-1 flex flex-col gap-4 items-center">
         <div className="h-24 w-0 border border-complementary-yellow-clr mb-2"></div>
-        <img
-          className="w-10 h-10 rounded-full"
-          src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-          alt="github-logo"
-        />
-        <div className="icon">LinkedIn</div>
-        <img
-          className="w-10 h-10"
-          src="../../../public/images/insta.png"
-          alt="insta-logo"
-        />
-        <div className="icon">Whatsapp</div>
+        <Icon name={"github"} rounded />
+        <Icon name={"insta"} />
+        <Icon name={"whatsapp"} />
+        <Icon name={"linkedin2"} />
       </div>
     </section>
   );
